@@ -1,0 +1,188 @@
+
+body {
+    background-color: rgb(22, 22, 126);
+    margin: 0;
+}
+
+.main-section, .second-main-section {
+    display: flex;
+    flex-direction: row;
+}
+.left-section {
+    background-color: rgb(67, 67, 187);
+    border-radius: 20px;
+    height: 95vh;
+    width: 50%;
+    margin: 2% 0 1% 2%;
+    border: 5px white solid;
+    padding: 2% 2% 0 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section {
+    border-radius: 20px;
+    height: 95vh;
+    width: 50%;
+    margin: 2% 2% 0 2%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right-up-section {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-down-section {
+    margin-top: 5%;
+    border-radius: 20px;
+    background-color: rgb(67, 67, 187);
+    border: 5px white solid;
+    height: 60vh;
+}
+
+.cover {
+    position: absolute;
+    display: block;
+    left: 74%;
+    top: 55%;
+    color: white;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Name, .Nim, .Kom, .Motto, .Hobi, .Stambuk {
+    color: whitesmoke;
+    padding: 0.8% 2% 0 2%;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Hobi {
+    padding-left: 8%;;
+}
+
+.Motto {
+    text-align: center;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Name, .Nim, .Kom, .Motto, .Hobi, .Stambuk {
+    visibility: hidden;
+}
+
+.game-title {
+    color: yellow;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.card-first-row, .card-second-row, .card-third-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 25vh;
+    margin: 1.5%;
+    flex-wrap: nowrap;
+    background-color: gold;
+    border: white 3px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-text {
+    color: black;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+    }
+
+.my-description > h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.my-description > p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    margin: 3%;
+    font-size: x-large;
+}
+
+.indent {
+    text-indent: 2em;
+}
+
+.my-description > p.name {
+    text-align: right;
+}
+
+.second-main-section {
+    background-color: white;
+    height: fit-content;
+    margin: 2% 0 0 0;
+    padding: 2%;
+}
+
+span {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: small;
+    vertical-align: super  ;
+}
+
+.third-main-section {
+    height: fit-content;
+    padding: 2%;
+}
+
+.third-section-title {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+table {
+    color: rgb(67, 67, 187);
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    border-collapse: collapse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th, td {
+    padding: 6vh;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    border: black solid 3px;
+    margin: 0;
+}
+
+th {
+    background-color: gold;
+    color: rgb(78, 78, 78);
+    text-decoration: underline 3px;
+}
+
+td {
+    background-color: white;
+}
+
+td:nth-child(odd) {
+    background-color: #e0e0e0;
+}
