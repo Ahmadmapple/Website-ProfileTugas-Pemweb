@@ -11,9 +11,9 @@
     <a href="index.html"><img src="images/Proyek Baru (4).svg" alt="nama web" width="150px" height="auto"></a>
     <nav class="nav-bar">
       <ul>
-        <li><a href="pages/materi1.html">Mengenal HTML, CSS, JS & Tailwind</a></li>
-        <li><a href="pages/materi2.html">Cara Membuat Website Sederhana</a></li>
-        <li><a href="pages/materi3.html">Kesan & Pesan Belajar Web</a></li>
+        <li><a href="#materi1">Mengenal HTML, CSS, JS & Tailwind</a></li>
+        <li><a href="#materi2">Cara Membuat Website Sederhana</a></li>
+        <li><a href="#materi3">Kesan & Pesan Belajar Web</a></li>
       </ul>
     </nav>
   </header>
@@ -118,6 +118,115 @@
             </tr>
         </table>
     </div>
+   <div class="fourth-main-section" id="materi1">
+    <h1 class="section-title">Pengenalan HTML, CSS, JavaScript, dan Tailwind</h1>
+    <div class="intro-container">
+
+        <div class="topic">
+            <h2>HTML (HyperText Markup Language)</h2>
+            <p>HTML adalah bahasa dasar untuk membuat struktur sebuah halaman web. Dengan HTML, kita menentukan elemen seperti judul, paragraf, gambar, tautan, tabel, dan lainnya.</p>
+            <iframe class="video" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="Belajar HTML Dasar - FreeCodeCamp" allowfullscreen></iframe>
+        </div>
+
+        <div class="topic">
+            <h2>CSS (Cascading Style Sheets)</h2>
+            <p>CSS digunakan untuk mengatur tampilan dari elemen HTML seperti warna, font, tata letak, dan animasi agar website terlihat menarik dan responsif.</p>
+            <iframe class="video" src="https://www.youtube.com/embed/1Rs2ND1ryYc" title="Belajar CSS Dasar - FreeCodeCamp" allowfullscreen></iframe>
+        </div>
+
+        <div class="topic">
+            <h2>JavaScript (JS)</h2>
+            <p>JavaScript berfungsi untuk menambahkan interaktivitas ke dalam website. Misalnya, menampilkan notifikasi, membuat animasi, dan memproses input pengguna secara dinamis.</p>
+            <iframe class="video" src="https://www.youtube.com/embed/hdI2bqOjy3c" title="Belajar JavaScript Dasar - FreeCodeCamp" allowfullscreen></iframe>
+        </div>
+
+        <div class="topic">
+            <h2>Tailwind CSS</h2>
+            <p>Tailwind CSS adalah framework utility-first yang membuat kita bisa mendesain langsung di dalam HTML menggunakan class siap pakai tanpa harus menulis CSS panjang.</p>
+            <iframe class="video" src="https://www.youtube.com/embed/dFgzHOX84xQ" title="Belajar Tailwind CSS - Traversy Media" allowfullscreen></iframe>
+        </div>
+
+    </div>
+</div>
+<div class="fifth-main-section" id="materi2">
+    <h1 class="section-title">Cara Membuat Website Sederhana</h1>
+    <div class="tutorial-container">
+        <div class="tutorial-intro">
+            <p>Membuat website sederhana tidak sulit! Cukup dengan <b>HTML</b>, <b>CSS</b>, dan sedikit <b>JavaScript</b>, kamu sudah bisa membuat halaman web yang menarik. Berikut langkah-langkah dasarnya 👇</p>
+        </div>
+
+        <div class="tutorial-steps">
+            <div class="step">
+                <h2>Langkah 1 — Buat Struktur Dasar HTML</h2>
+                <p>Buat file baru bernama <code>index.html</code>, lalu isi dengan struktur dasar HTML berikut:</p>
+                <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Website Sederhana&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Halo Dunia!&lt;/h1&gt;
+    &lt;p&gt;Ini adalah website pertamaku.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+            </div>
+
+            <div class="step">
+                <h2>Langkah 2 — Tambahkan Gaya dengan CSS</h2>
+                <p>Buat file <code>style.css</code> dan hubungkan ke HTML dengan tag <code>&lt;link&gt;</code>. Contoh sederhana:</p>
+                <pre><code>body {
+  background-color: #1e1e1e;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #ffcc00;
+}</code></pre>
+            </div>
+
+            <div class="step">
+                <h2>Langkah 3 — Tambahkan Interaktivitas dengan JavaScript</h2>
+                <p>Buat file <code>script.js</code> dan tambahkan fungsi sederhana seperti alert:</p>
+                <pre><code>document.addEventListener('DOMContentLoaded', () =&gt; {
+  alert('Selamat datang di website sederhana!');
+});</code></pre>
+            </div>
+
+            <div class="step">
+                <h2>Langkah 4 — Jalankan Website</h2>
+                <p>Buka file <code>index.html</code> menggunakan browser dan Website sederhana pertamamu sudah jadi :)</p>
+                <img src="images/instruksisatu.PNG" alt="" width="50%" style="display: block; margin: 20px auto;">
+                <img src="images/instruksidua.PNG" alt="" width="50%" style="display: block; margin: 20px auto;">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="sixth-main-section" id="materi3">
+    <h1 class="section-title">Kesan dan Pesan Belajar Web</h1>
+
+    <div class="impression-container">
+        <div class="impression-box">
+            <h2>Kesan</h2>
+            <p>Belajar web memberikan pengalaman yang menyenangkan dan menantang. Awalnya terasa rumit karena banyak yang harus dipahami seperti struktur HTML, tampilan CSS, dan logika JavaScript. Tapi setelah paham alurnya, semuanya terasa seperti menyusun puzzle yang seru. Melihat hasil website yang bisa tampil di browser itu bikin rasa puas tersendiri!</p>
+        </div>
+
+        <div class="impression-box">
+            <h2>Pesan</h2>
+            <p>Jangan takut untuk memulai belajar web. Mulailah dari dasar, terus eksplor, dan jangan takut mencoba hal baru seperti framework modern (misalnya Tailwind atau React). Kuncinya adalah konsisten dan berani salah. Karena dari kesalahan itulah kita bisa berkembang jadi developer yang lebih baik.</p>
+        </div>
+    </div>
+
+    <div class="closing-quote">
+        <q><i>Ilmu dan Adab adalah satu kesatuan, karena Ilmu tanpa adab seperti api tanpa kayu bakar, dan adab tanpa ilmu seperti jasad tanpa ruh</i></q>
+        <p class="author">-Motto Hidup Achmad Caesar Ramadhan</p>
+    </div>
+</div>
+
     <script src="weather.js"></script>
 </body>
 </html>
