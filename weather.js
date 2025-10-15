@@ -11,8 +11,9 @@ const Text = [
   "Motto Hidup",
   "Hobi",
   "Hobi",
-];
+];//datanya
 const Cards = document.querySelectorAll(".card");
+const sections = document.querySelectorAll('.section-hidden');
 let openCard = 0;
 let firstCard = null;
 let secondCard = null;
@@ -95,3 +96,18 @@ Cards.forEach((card, i) => {
     }
   });
 });
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('section-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.2
+  });
+
+  sections.forEach(section => {
+    observer.observe(section);
+  });
